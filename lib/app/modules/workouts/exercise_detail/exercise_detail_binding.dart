@@ -1,0 +1,8 @@
+import 'package:get/get.dart';
+
+import 'exercise_detail_controller.dart';
+
+class ExerciseDetailBinding extends Bindings {
+  @override
+  void dependencies() => Get.lazyPut<ExerciseDetailController>(() => ExerciseDetailController());
+}
